@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My IT Internship</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="sidebar" id="sidebar">
+        <div class="profile">
+            <img src="profile.jpg" alt="Profile Image" class="profile-image">
+            <h2>Yarma, Usman</h2>
+            <hr>
+        </div>
+        <div class="menu">
+            <div class="menu-item" data-content-id="home">
+                <span class="icon">🏠</span>
+                <span class="text">Home</span>
+            </div>
+            <div class="menu-item" data-content-id="weeks">
+                <span class="icon">📅</span>
+                <span class="text">Weeks</span>
+            </div>
+            <div id="weeks" class="dropdown">
+                <!-- Week 1 -->
+                <div class="menu-item" data-content-id="week1">
+                    <span class="icon">📁</span>
+                    <span class="text">Week 1</span>
+                </div>
+                <div id="week1" class="dropdown">
+                    <div class="menu-item" data-content-id="week1-topic1">
+                        <span class="icon">📄</span>
+                        <span class="text">Topic 1</span>
+                    </div>
+                    <div class="menu-item" data-content-id="week1-topic2">
+                        <span class="icon">📄</span>
+                        <span class="text">Topic 2</span>
+                    </div>
+                </div>
+                <!-- Week 2 -->
+                <div class="menu-item" data-content-id="week2">
+                    <span class="icon">📁</span>
+                    <span class="text">Week 2</span>
+                </div>
+                <div id="week2" class="dropdown">
+                    <div class="menu-item" data-content-id="week2-topic1">
+                        <span class="icon">📄</span>
+                        <span class="text">Topic 1</span>
+                    </div>
+                    <div class="menu-item" data-content-id="week2-topic2">
+                        <span class="icon">📄</span>
+                        <span class="text">Topic 2</span>
+                    </div>
+                </div>
+                <!-- Week 3 -->
+                <div class="menu-item" data-content-id="week3">
+                    <span class="icon">📁</span>
+                    <span class="text">Week 3</span>
+                </div>
+                <div id="week3" class="dropdown">
+                    <div class="menu-item" data-content-id="week3-topic1">
+                        <span class="icon">📄</span>
+                        <span class="text">Topic 1</span>
+                    </div>
+                    <div class="menu-item" data-content-id="week3-topic2">
+                        <span class="icon">📄</span>
+                        <span class="text">Topic 2</span>
+                    </div>
+                </div>
+                <!-- Week 4 -->
+                <div class="menu-item" data-content-id="week4">
+                    <span class="icon">📁</span>
+                    <span class="text">Week 4</span>
+                </div>
+                <div id="week4" class="dropdown">
+                    <div class="menu-item" data-content-id="week4-topic1">
+                        <span class="icon">📄</span>
+                        <span class="text">Topic 1</span>
+                    </div>
+                    <div class="menu-item" data-content-id="week4-topic2">
+                        <span class="icon">📄</span>
+                        <span class="text">Topic 2</span>
+                    </div>
+                </div>
+                <!-- Week 5 -->
+                <div class="menu-item" data-content-id="week5">
+                    <span class="icon">📁</span>
+                    <span class="text">Week 5</span>
+                </div>
+                <div id="week5" class="dropdown">
+                    <div class="menu-item" data-content-id="week5-topic1">
+                        <span class="icon">📄</span>
+                        <span class="text">Topic 1</span>
+                    </div>
+                    <div class="menu-item" data-content-id="week5-topic2">
+                        <span class="icon">📄</span>
+                        <span class="text">Topic 2</span>
+                    </div>
+                </div>
+                <!-- Week 6 -->
+                <div class="menu-item" data-content-id="week6">
+                    <span class="icon">📁</span>
+                    <span class="text">Week 6</span>
+                </div>
+                <div id="week6" class="dropdown">
+                    <div class="menu-item" data-content-id="week6-topic1">
+                        <span class="icon">📄</span>
+                        <span class="text">Topic 1</span>
+                    </div>
+                    <div class="menu-item" data-content-id="week6-topic2">
+                        <span class="icon">📄</span>
+                        <span class="text">Topic 2</span>
+                    </div>
+                </div>
+                <!-- Week 7 -->
+                <div class="menu-item" data-content-id="week7">
+                    <span class="icon">📁</span>
+                    <span class="text">Week 7</span>
+                </div>
+                <div id="week7" class="dropdown">
+                    <div class="menu-item" data-content-id="week7-topic1">
+                        <span class="icon">📄</span>
+                        <span class="text">Topic 1</span>
+                    </div>
+                    <div class="menu-item" data-content-id="week7-topic2">
+                        <span class="icon">📄</span>
+                        <span class="text">Topic 2</span>
+                    </div>
+                </div>
+                <!-- Week 8 -->
+                <div class="menu-item" data-content-id="week8">
+                    <span class="icon">📁</span>
+                    <span class="text">Week 8</span>
+                </div>
+                <div id="week8" class="dropdown">
+                    <div class="menu-item" data-content-id="week8-topic1">
+                        <span class="icon">📄</span>
+                        <span class="text">Topic 1</span>
+                    </div>
+                    <div class="menu-item" data-content-id="week8-topic2">
+                        <span class="icon">📄</span>
+                        <span class="text">Topic 2</span>
+                    </div>
+                </div>
+                <!-- Week 9 -->
+                <div class="menu-item" data-content-id="week9">
+                    <span class="icon">📁</span>
+                    <span class="text">Week 9</span>
+                </div>
+                <div id="week9" class="dropdown">
+                    <div class="menu-item" data-content-id="week9-topic1">
+                        <span class="icon">📄</span>
+                        <span class="text">Topic 1</span>
+                    </div>
+                    <div class="menu-item" data-content-id="week9-topic2">
+                        <span class="icon">📄</span>
+                        <span class="text">Topic 2</span>
+                    </div>
+                </div>
+                <!-- Week 10 -->
+                <div class="menu-item" data-content-id="week10">
+                    <span class="icon">📁</span>
+                    <span class="text">Week 10</span>
+                </div>
+                <div id="week10" class="dropdown">
+                    <div class="menu-item" data-content-id="week10-topic1">
+                        <span class="icon">📄</span>
+                        <span class="text">Topic 1</span>
+                    </div>
+                    <div class="menu-item" data-content-id="week10-topic2">
+                        <span class="icon">📄</span>
+                        <span class="text">Topic 2</span>
+                    </div>
+                </div>
+                <!-- Week 11 -->
+                <div class="menu-item" data-content-id="week11">
+                    <span class="icon">📁</span>
+                    <span class="text">Week 11</span>
+                </div>
+                <div id="week11" class="dropdown">
+                    <div class="menu-item" data-content-id="week11-topic1">
+                        <span class="icon">📄</span>
+                        <span class="text">Topic 1</span>
+                    </div>
+                    <div class="menu-item" data-content-id="week11-topic2">
+                        <span class="icon">📄</span>
+                        <span class="text">Topic 2</span>
+                    </div>
+                </div>
+                <!-- Week 12 -->
+                <div class="menu-item" data-content-id="week12">
+                    <span class="icon">📁</span>
+                    <span class="text">Week 12</span>
+                </div>
+                <div id="week12" class="dropdown">
+                    <div class="menu-item" data-content-id="week12-topic1">
+                        <span class="icon">📄</span>
+                        <span class="text">Topic 1</span>
+                    </div>
+                    <div class="menu-item" data-content-id="week12-topic2">
+                        <span class="icon">📄</span>
+                        <span class="text">Topic 2</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>        
+    <div class="hamburger" id="hamburger"><i class="fas fa-bars"></i></div>
+    <div class="overlay"></div>
+    <div class="content" id="content">
+        <div id="home" class="content-section">
+            <h1>Welcome to My Internship Website</h1>
+            <h3>This is my website showcasing everything I've learned during my internship.</h3>
+            <div class="info">
+                <div class="info-item">
+                    <i class="fas fa-user"></i>
+                    <p><strong>Name:</strong> Usman Yarma Muhammad</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <p><strong>Mail: </strong><a href="mailto:usman.muhammad@student.neu.edu.ng">usman.muhammad@student.neu.edu.ng</a></p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-id-card"></i>
+                    <p><strong>Matric No:</strong> NEU-22/23-CYB-00251</p>
+                </div>
+                <div class="location-info">
+                    <div class="location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p><strong>Place: </strong>Ministry of Science, Technology and Innovation, Gombe State</p>
+                    </div>
+                    <div class="location">
+                        <i class="fas fa-university"></i>
+                        <p><strong>School: </strong>North-Eastern University, Gombe</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-calendar-alt"></i>
+                    <p><strong>Period of Attachment: </strong>13th May-12th August (2024)</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="week1-topic1" class="content-section" style="display:none;">
+            <p class="date"><i class="fas fa-calendar-alt"></i> 14th May 2024</p>
+            
+            <h1>Week 1 - Topic 1</h1>
+            
+            <h2>Introduction and Welcome to the Ministry</h2>
+            <p>On 14th May 2024, I was warmly welcomed to the Ministry of Science, Technology and Innovation, Gombe State, as an intern student. The atmosphere was filled with anticipation and eagerness as I embarked on this journey to gain valuable experience and knowledge in the field of science and technology.</p>
+            
+            <h2>Overview of the Ministry</h2>
+            <p>The Ministry of Science, Technology and Innovation is committed to driving scientific research and technological advancements to foster innovation and development in the state. The ministry's mission is to create an environment that supports scientific discoveries and innovative solutions to the challenges we face.</p>
+            <p>During my orientation, I was introduced to the various departments within the ministry, each playing a vital role in our collective mission. Here is an organizational chart that illustrates the hierarchy within our ministry, from the head (boss) to the smallest staff rank:</p>
+            
+            <!-- Placeholder for Ministry Tree Diagram -->
+            <img src="ministry_tree_diagram.png" alt="Ministry Organizational Tree" style="max-width:100%; height:auto;">
+        
+            <p>This diagram shows the structure of our ministry, highlighting the various departments and their respective roles. Each department is integral to the successful implementation of our policies and initiatives.</p>
+        </div>
+        
+        <div id="week1-topic2" class="content-section" style="display:none;">
+            <p class="date" style="text-align:left;"><i class="fas fa-calendar-alt"></i> 16th May 2024</p>
+            
+            <h1 style="text-align:center;">Week 1 - Topic 2</h1>
+            
+            <h2 style="text-align:center;">Basics of Web Development</h2>
+            <p style="text-align:left;">In this session, we focused on understanding the basics of HTML, the language used to create the structure of web pages.</p>
+            
+            <h2 style="text-align:center;">Introduction to HTML</h2>
+            <p style="text-align:left;">HTML (Hypertext Markup Language) is the standard markup language for creating web pages. It provides the structure for web content, allowing us to define elements such as headings, paragraphs, lists, and more.</p>
+            
+            <h2 style="text-align:center;">Structure of an HTML Document</h2>
+            <p style="text-align:left;">We discussed the basic structure of an HTML document, which includes the following elements:</p>
+            <ul style="text-align:left;">
+                <li><strong>&lt;!DOCTYPE html&gt;</strong>: Declares the document type and version of HTML.</li>
+                <li><strong>&lt;html&gt;</strong>: The root element of an HTML page.</li>
+                <li><strong>&lt;head&gt;</strong>: Contains meta-information about the document, such as the title.</li>
+                <li><strong>&lt;body&gt;</strong>: Contains the content of the HTML document, such as text, images, and links.</li>
+            </ul>
+            
+            <h2 style="text-align:center;">Basic HTML Elements</h2>
+            <p style="text-align:left;">We covered several basic HTML elements, including:</p>
+            <ul style="text-align:left;">
+                <li><strong>Headings (&lt;h1&gt; to &lt;h6&gt;)</strong>: Used to define headings, with &lt;h1&gt; being the highest level.</li>
+                <li><strong>Paragraphs (&lt;p&gt;)</strong>: Used to define blocks of text.</li>
+                <li><strong>Lists</strong>: Ordered (&lt;ol&gt;) and unordered (&lt;ul&gt;) lists to organize items.</li>
+                <li><strong>Tables (&lt;table&gt;)</strong>: Used to display data in a tabular format, with rows and columns.</li>
+            </ul>
+            
+            <h2 style="text-align:center;">Assignment</h2>
+            <p style="text-align:left;">We were given an assignment to create a simple web page that includes the following elements:</p>
+            <ul style="text-align:left;">
+                <li>A heading using the &lt;h1&gt; tag</li>
+                <li>A paragraph of text using the &lt;p&gt; tag</li>
+                <li>A hyperlink using the &lt;a&gt; tag</li>
+                <li>An image using the &lt;img&gt; tag</li>
+            </ul>
+            <p style="text-align:left;">This assignment is designed to reinforce our understanding of HTML and help us practice creating basic web pages.</p>
+            
+            <!-- Insert the image of the assignment here -->
+            <h2 style="text-align:center;">Assignment Image</h2>
+            <img src="assignment_image_front.jpg" alt="Assignment Front" style="max-width:100%; height:auto;">
+            <img src="assignment_image_back.jpg" alt="Assignment Back" style="max-width:100%; height:auto;">
+        </div>
+
+        <div id="week2-topic1" class="content-section" style="display:none;">
+            <p class="date" style="text-align:left;"><i class="fas fa-calendar-alt"></i> 21st May 2024</p>
+            
+            <h1 style="text-align:center;">Week 2 - Topic 1</h1>
+            
+            <h2 style="text-align:center;">Introduction to CSS</h2>
+            <p style="text-align:left;">This week, we explored the basics of CSS (Cascading Style Sheets) to understand how to style and layout web pages effectively.</p>
+            
+            <h2 style="text-align:center;">Understanding CSS Basics</h2>
+            <p style="text-align:left;">CSS is used to control the presentation of web pages, allowing us to apply styles such as colors, fonts, and spacing. CSS works by associating style rules with HTML elements, and it can be included in HTML documents in several ways:</p>
+            <ul style="text-align:left;">
+                <li><strong>Inline CSS</strong>: Adding styles directly to an HTML element using the <code>style</code> attribute.</li>
+                <li><strong>Internal CSS</strong>: Placing CSS rules within a <code>&lt;style&gt;</code> tag in the <code>&lt;head&gt;</code> section of an HTML document.</li>
+                <li><strong>External CSS</strong>: Linking to an external stylesheet using the <code>&lt;link&gt;</code> tag.</li>
+            </ul>
+            
+            <h2 style="text-align:center;">CSS Selectors and Properties</h2>
+            <p style="text-align:left;">We learned about different types of CSS selectors, which are used to target HTML elements, and how to apply styles using various CSS properties. Some key selectors and properties include:</p>
+            <ul style="text-align:left;">
+                <li><strong>Selectors</strong>: Element, class, and ID selectors to target specific HTML elements.</li>
+                <li><strong>Properties</strong>: <code>color</code>, <code>background-color</code>, <code>font-size</code>, <code>margin</code>, <code>padding</code>, and more.</li>
+            </ul>
+        </div>
+        
+        <div id="week2-topic2" class="content-section" style="display:none;">
+            <p class="date" style="text-align:left;"><i class="fas fa-calendar-alt"></i> 23rd May 2024</p>
+            
+            <h1 style="text-align:center;">Week 2 - Topic 2</h1>
+            
+            <h2 style="text-align:center;">Integrating HTML, CSS, and JavaScript</h2>
+            <p style="text-align:left;">In this session, we learned how to integrate HTML, CSS, and JavaScript to create a cohesive web page. We explored how to use these technologies together to enhance the functionality and presentation of web pages.</p>
+            
+            <h2 style="text-align:center;">Assignment</h2>
+            <p style="text-align:left;">Our assignment was to create a simple web page that includes a heading, paragraph, image, and button. We used CSS to style the elements with different colors, fonts, and layouts, and JavaScript to change the paragraph text when the button is clicked. Here are the requirements:</p>
+            <ul style="text-align:left;">
+                <li>A web page with a heading, paragraph, image, and button.</li>
+                <li>Use CSS to style the elements with various colors, fonts, and layouts.</li>
+                <li>Use JavaScript to change the paragraph text when the button is clicked.</li>
+            </ul>
+            
+            <h2 style="text-align:center;">Assignment Examples</h2>
+            <p style="text-align:left;">Below are some examples of how the assignment was implemented:</p>
+            <img src="assignment-example1.png" alt="Assignment Example 1" style="width:100%; max-width:600px;">
+            <img src="assignment-example2.png" alt="Assignment Example 2" style="width:100%; max-width:600px;">
+        </div>
+
+
+        <div id="week3-topic1" class="content-section" style="display:none;">
+            <p class="date" style="text-align:left;"><i class="fas fa-calendar-alt"></i> 28th May 2024</p>
+            
+            <h1 style="text-align:center;">Week 3 - Topic 1</h1>
+            
+            <h2 style="text-align:center;">Children's Day Holiday</h2>
+            <p style="text-align:left;">No activities were conducted on this day. We observed Children's Day to celebrate and honor children.</p>
+            
+            <h2 style="text-align:center;">Children's Day Image</h2>
+            <img src="childrens-day.jpg" alt="Children's Day Celebration" style="width:100%; max-width:800px;">
+        </div>
+        
+        <div id="week3-topic2" class="content-section" style="display:none;">
+            <p class="date" style="text-align:left;"><i class="fas fa-calendar-alt"></i> 30th May 2024</p>
+            
+            <h1 style="text-align:center;">Week 3 - Topic 2</h1>
+            
+            <h2 style="text-align:center;">Introduction to C Programming</h2>
+            <p style="text-align:left;">In this session, we introduced the basics of C programming. Key points covered included:</p>
+            <ul style="text-align:left;">
+                <li><strong>Definition:</strong> C is a high-level programming language known for its efficiency and control.</li>
+                <li><strong>Features:</strong> Structured programming, low-level memory access, and a rich set of operators.</li>
+                <li><strong>Basic Structures:</strong> Functions, loops, and conditionals.</li>
+                <li><strong>Simple Program:</strong> Writing a basic "Hello, World!" program.</li>
+                <li><strong>Data Types and Variables:</strong> Understanding different data types (int, float, char) and how to use variables.</li>
+                <li><strong>Control Structures:</strong> Using if-else statements, switch-case, and loops (for, while, do-while).</li>
+                <li><strong>Basic Arrays:</strong> Declaring and using arrays to store multiple values.</li>
+            </ul>
+            
+            <h2 style="text-align:center;">Assignment</h2>
+            <p style="text-align:left;">The assignment involved creating a simple C program that demonstrates the concepts covered. Below are the images of the assignment:</p>
+            <h2 style="text-align:center;">Front Page</h2>
+            <img src="assignment-front.jpg" alt="Assignment Front Page" style="width:100%; max-width:800px;">
+            
+            <h2 style="text-align:center;">Back Page</h2>
+            <img src="assignment-back.jpg" alt="Assignment Back Page" style="width:100%; max-width:800px;">
+        </div>
+
+        <div id="week4-topic1" class="content-section" style="display:none;">
+            <p class="date" style="text-align:left;"><i class="fas fa-calendar-alt"></i> 4th June 2024</p>
+            
+            <h1 style="text-align:center;">Week 4 - Topic 1</h1>
+            
+            <h2 style="text-align:center;">Git and GitHub</h2>
+            <div style="text-align:center;">
+                <img src="github-logo.png" alt="GitHub Logo" style="width:100px; height:100px; border-radius:50%;">
+            </div>
+            
+            <h3 style="text-align:center;">Definition and Introduction</h3>
+            <p style="text-align:left;">Git is a distributed version control system that tracks changes in source code during software development. GitHub is a web-based platform that uses Git for version control and collaboration, allowing multiple people to work on a project simultaneously.</p>
+            
+            <h3 style="text-align:center;">Starting with GitHub (Web-Version)</h3>
+            <p style="text-align:left;">Steps to get started with GitHub on the web:</p>
+            <ul style="text-align:left;">
+                <li>Go to the GitHub website: <a href="https://github.com" target="_blank">github.com</a></li>
+                <li>Sign up for a GitHub account if you don't have one.</li>
+                <li>Create a new repository by clicking on the "+" icon in the top right corner and selecting "New repository."</li>
+                <li>Follow the prompts to name your repository and add a description.</li>
+                <li>Click "Create repository" to finalize.</li>
+            </ul>
+            
+            <h3 style="text-align:center;">Class Activity</h3>
+            <p style="text-align:left;">During the class activity, we created GitHub accounts, uploaded files, and committed changes to our repositories.</p>
+        </div>
+        
+        <div id="week4-topic2" class="content-section" style="display:none;">
+            <p class="date" style="text-align:left;"><i class="fas fa-calendar-alt"></i> 6th June 2024</p>
+            
+            <h1 style="text-align:center;">Week 4 - Topic 2</h1>
+            
+            <h2 style="text-align:center;">GitHub Practicals</h2>
+            <p style="text-align:left;">In this session, we covered several practical aspects of using Git and GitHub:</p>
+            <ul style="text-align:left;">
+                <li><strong>Creating Branches:</strong> How to create and switch branches in a Git repository.</li>
+                <li><strong>Making Changes:</strong> How to modify files and commit changes to branches.</li>
+                <li><strong>Creating Pull Requests:</strong> How to submit changes from one branch to another through pull requests.</li>
+                <li><strong>Forking and Contribution:</strong> How to fork repositories and contribute to projects.</li>
+                <li><strong>Making Changes:</strong> How to update forks and repositories with changes.</li>
+                <li><strong>Submitting Pull Requests:</strong> How to create and submit pull requests for review.</li>
+            </ul>
+            
+            <h2 style="text-align:center;">Assignment</h2>
+            <p style="text-align:left;">For the assignment, write a step-by-step guide on how to download and install Git on your computer. Include details such as:</p>
+            <ul style="text-align:left;">
+                <li>Downloading the Git installer from the official website.</li>
+                <li>Running the installer and configuring basic settings.</li>
+                <li>Verifying the installation and setting up user information.</li>
+            </ul>
+        
+            <h3 style="text-align:center;">Assignment Images</h3>
+            <div style="text-align:center;">
+                <img src="assignment-front.png" alt="Assignment Front" style="width:80%; max-width:600px; margin-bottom:10px;">
+                <img src="assignment-back.png" alt="Assignment Back" style="width:80%; max-width:600px;">
+            </div>
+        </div>
+
+
+        <div id="week5-topic1" class="content-section" style="display:none;">
+            <p class="date" style="text-align:left;"><i class="fas fa-calendar-alt"></i> 11th June 2024</p>
+            
+            <h1 style="text-align:center;">Week 5 - Topic 1</h1>
+            
+            <h2 style="text-align:center;">Launching a Website on GitHub Pages</h2>
+            
+            <h3 style="text-align:center;">Setting Up GitHub Pages</h3>
+            <p style="text-align:left;">To set up GitHub Pages for your repository, follow these steps:</p>
+            <ol style="text-align:left;">
+                <li>Navigate to your GitHub repository on the GitHub website.</li>
+                <li>Click on the "Settings" tab.</li>
+                <li>Scroll down to the "GitHub Pages" section.</li>
+                <li>Select the branch you want to use for GitHub Pages (usually `main` or `master`).</li>
+                <li>Choose the folder (e.g., `/root` or `/docs`) to publish.</li>
+                <li>Click "Save" to enable GitHub Pages.</li>
+            </ol>
+            
+            <h3 style="text-align:center;">Uploading Files</h3>
+            <p style="text-align:left;">To upload files to your GitHub repository, follow these steps:</p>
+            <ol style="text-align:left;">
+                <li>Navigate to your GitHub repository.</li>
+                <li>Click on the "Add file" button.</li>
+                <li>Select "Upload files" from the dropdown menu.</li>
+                <li>Drag and drop your files or click "Choose your files" to select files from your computer.</li>
+                <li>Click "Commit changes" to upload the files.</li>
+            </ol>
+            
+            <h3 style="text-align:center;">Configuring GitHub Pages</h3>
+            <p style="text-align:left;">Once GitHub Pages is set up, you can configure it as follows:</p>
+            <ol style="text-align:left;">
+                <li>Ensure your HTML files are located in the root directory or the specified folder.</li>
+                <li>Verify the URL for your GitHub Pages site: <code>https://yourusername.github.io/webrepository</code></li>
+                <li>Customize the settings if needed, such as theme or custom domain.</li>
+            </ol>
+            
+            <h3 style="text-align:center;">Committing Changes</h3>
+            <p style="text-align:left;">To commit changes to your GitHub Pages site, follow these steps:</p>
+            <ol style="text-align:left;">
+                <li>Make changes to your files locally or directly on GitHub.</li>
+                <li>Stage your changes using `git add` command if using Git locally.</li>
+                <li>Commit the changes with a descriptive message using `git commit -m "Your message"`.</li>
+                <li>Push the changes to GitHub with `git push`.</li>
+            </ol>
+            
+            <h3 style="text-align:center;">Assignment</h3>
+            <p style="text-align:left;">For the assignment, create a web page of your own choice and deploy it using GitHub Pages. Here are the requirements:</p>
+            <ul style="text-align:left;">
+                <li>Design and develop a personal or project web page.</li>
+                <li>Deploy the web page to GitHub Pages.</li>
+                <li>Ensure the page is accessible at your GitHub Pages URL: <code>https://yourusername.github.io/webrepository</code></li>
+            </ul>
+            
+            <h3 style="text-align:center;">Assignment Image</h3>
+            <div style="text-align:center;">
+                <img src="assignment-week5.png" alt="Week 5 Assignment" style="width:80%; max-width:600px;">
+            </div>
+
+            <div id="week5-topic2" class="content-section" style="display:none;">
+                <p class="date" style="text-align:left;"><i class="fas fa-calendar-alt"></i> 13th June 2024</p>
+                
+                <h1 style="text-align:center;">Week 5 - Topic 2</h1>
+                
+                <h2 style="text-align:center;">Nigerian Democracy Day</h2>
+                
+                <p style="text-align:left;">On 13th June 2024, we observed Nigerian Democracy Day. It was a day dedicated to celebrating and reflecting on the democratic values and progress of Nigeria.</p>
+                
+                <h3 style="text-align:center;">Image for Nigerian Democracy Day</h3>
+                <div style="text-align:center;">
+                    <img src="nigerian-democracy-day.png" alt="Nigerian Democracy Day" style="width:80%; max-width:600px;">
+                </div>
+            </div>
+            
+        </div>
+
+
+        <div id="week6-topic1" class="content-section" style="display:none;">
+            <p class="date" style="text-align:left;"><i class="fas fa-calendar-alt"></i> 18th June 2024</p>
+            
+            <h1 style="text-align:center;">Week 6 - Topic 1</h1>
+            
+            <h2 style="text-align:center;">Eid-el-Kabir Holiday</h2>
+            
+            <p style="text-align:left;">On 18th June 2024, we observed the Eid-el-Kabir holiday. It was a time to celebrate and spend time with family and friends.</p>
+            
+            <h3 style="text-align:center;">Image for Eid-el-Kabir</h3>
+            <div style="text-align:center;">
+                <img src="eid-el-kabir.png" alt="Eid-el-Kabir" style="width:80%; max-width:600px;">
+            </div>
+        </div>
+        
+        <div id="week6-topic2" class="content-section" style="display:none;">
+            <p class="date" style="text-align:left;"><i class="fas fa-calendar-alt"></i> 20th June 2024</p>
+            
+            <h1 style="text-align:center;">Week 6 - Topic 2</h1>
+            
+            <h2 style="text-align:center;">No Activity</h2>
+            
+            <p style="text-align:left;">On 20th June 2024, there were no activities conducted. It was a day for rest and preparation.</p>
+        </div>
+
+
+        <div id="week7-topic1" class="content-section" style="display:none;">
+            <p class="date" style="text-align:left;"><i class="fas fa-calendar-alt"></i> 25th June 2024</p>
+            
+            <h1 style="text-align:center;">Week 7 - Topic 1</h1>
+            
+            <h2 style="text-align:center;">Introduction to Computer Networks</h2>
+            
+            <h3 style="text-align:center;">Definition</h3>
+            <p style="text-align:left;">A computer network is a collection of interconnected computers that communicate with each other to share resources and information.</p>
+            
+            <h3 style="text-align:center;">Benefits</h3>
+            <ul style="text-align:left;">
+                <li>Resource Sharing</li>
+                <li>Communication</li>
+                <li>Data Management</li>
+                <li>Cost Efficiency</li>
+                <li>Remote Access</li>
+            </ul>
+            
+            <h3 style="text-align:center;">Types of Network</h3>
+            <ul style="text-align:left;">
+                <li><strong>LAN</strong>: Local Area Network</li>
+                <li><strong>WAN</strong>: Wide Area Network</li>
+                <li><strong>MAN</strong>: Metropolitan Area Network</li>
+            </ul>
+            
+            <h3 style="text-align:center;">Network Topologies</h3>
+            <ul style="text-align:left;">
+                <li><strong>Star</strong></li>
+                <li><strong>Ring</strong></li>
+                <li><strong>Mesh</strong></li>
+            </ul>
+        </div>
+        
+        <div id="week7-topic2" class="content-section" style="display:none;">
+            <p class="date" style="text-align:left;"><i class="fas fa-calendar-alt"></i> 27th June 2024</p>
+            
+            <h1 style="text-align:center;">Week 7 - Topic 2</h1>
+            
+            <h2 style="text-align:center;">IP Address</h2>
+            
+            <h3 style="text-align:center;">Definition</h3>
+            <p style="text-align:left;">An IP address (Internet Protocol address) is a unique string of numbers separated by periods or colons that identifies each computer using the Internet Protocol to communicate over a network.</p>
+            
+            <h3 style="text-align:center;">IPv4 Address</h3>
+            <p style="text-align:left;">IPv4 is the fourth version of the Internet Protocol. It uses a 32-bit address scheme allowing for 2^32 addresses. Examples:</p>
+            <ul style="text-align:left;">
+                <li>192.168.0.1</li>
+                <li>10.0.0.1</li>
+                <li>172.16.254.1</li>
+                <li>192.168.1.1</li>
+                <li>203.0.113.0</li>
+            </ul>
+            
+            <h3 style="text-align:center;">IPv6 Address</h3>
+            <p style="text-align:left;">IPv6 is the sixth version of the Internet Protocol, designed to replace IPv4. It uses a 128-bit address scheme allowing for a vastly larger address space. Example:</p>
+            <p style="text-align:left;">2001:0db8:85a3:0000:0000:8a2e:0370:7334</p>
+        </div>
+        
+
+        <div id="week8-topic1" class="content-section" style="display:none;">
+            <p class="date" style="text-align:left;"><i class="fas fa-calendar-alt"></i> 2nd July 2024</p>
+            
+            <h1 style="text-align:center;">Week 8 - Topic 1</h1>
+            
+            <h2 style="text-align:center;">Domain Name System (DNS)</h2>
+            
+            <h3 style="text-align:center;">Definition</h3>
+            <p style="text-align:left;">The Domain Name System (DNS) is a hierarchical system that translates human-readable domain names into IP addresses needed by computers to communicate with each other over the Internet.</p>
+            
+            <h3 style="text-align:center;">Components</h3>
+            <ul style="text-align:left;">
+                <li><strong>Domain Names</strong>: The address that users type into a browser (e.g., www.example.com).</li>
+                <li><strong>DNS Records</strong>: Information stored in DNS servers about domain names (e.g., A records, MX records).</li>
+                <li><strong>DNS Servers</strong>: Servers that store DNS records and respond to DNS queries.</li>
+            </ul>
+            
+            <h3 style="text-align:center;">How It Works</h3>
+            <p style="text-align:left;">When you enter a domain name into your browser, the DNS system translates this name into the IP address of the server hosting the website. This process involves several steps, including querying DNS servers to find the correct IP address and returning it to your browser to establish a connection.</p>
+            
+            <h3 style="text-align:center;">Practical Session: Using nslookup Command</h3>
+            
+            <p style="text-align:left;">To query DNS records using the `nslookup` command, follow these steps:</p>
+            <ol style="text-align:left;">
+                <li>Open the Command Prompt (CMD) on your computer.</li>
+                <li>Type the `nslookup` command followed by the domain name you want to query.</li>
+                <li>Review the returned DNS records for the specified domain.</li>
+            </ol>
+            
+            <h4 style="text-align:center;">Example 1: School Website</h4>
+            <img src="portal-neu-edu-ng-nslookup.png" alt="nslookup for portal.neu.edu.ng" style="display:block; margin:auto;">
+            
+            <h4 style="text-align:center;">Example 2: Football Club Website</h4>
+            <img src="mancity-com-nslookup.png" alt="nslookup for mancity.com" style="display:block; margin:auto;">
+
+            <h4 style="text-align:center;">Example 1: BBC Website</h4>
+            <img src="bbc-com-nslookup.png" alt="nslookup for bbc.com" style="display:block; margin:auto;">
+            <p style="text-align:left;">The BBC website has many IP addresses to help handle a lot of visitors at once, ensure quick access from different parts of the world, provide backup in case something goes wrong, and work with both old and new internet systems. This setup makes sure the website is fast and reliable for everyone.</p>
+        
+        </div>
+        
+        <div id="week8-topic2" class="content-section" style="display:none;">
+            <p class="date" style="text-align:left;"><i class="fas fa-calendar-alt"></i> 4th July 2024</p>
+            
+            <h1 style="text-align:center;">Week 8 - Topic 2</h1>
+            
+            <h2 style="text-align:center;">HTTP and HTTPS</h2>
+            
+            <h3 style="text-align:center;">Definition</h3>
+            <p style="text-align:left;">HTTP (Hypertext Transfer Protocol) is the protocol used for transferring web pages on the Internet. HTTPS (HTTP Secure) is the secure version of HTTP that encrypts data for secure communication.</p>
+            
+            <h3 style="text-align:center;">HTTP Methods</h3>
+            <ul style="text-align:left;">
+                <li><strong>GET</strong>: Requests data from a specified resource.</li>
+                <li><strong>POST</strong>: Submits data to be processed to a specified resource.</li>
+                <li><strong>PUT</strong>: Updates a current resource with new data.</li>
+                <li><strong>DELETE</strong>: Deletes the specified resource.</li>
+            </ul>
+            
+            <h3 style="text-align:center;">Practical Session: Exploring HTTP and HTTPS</h3>
+            
+            <p style="text-align:left;">To explore HTTP and HTTPS methods, follow these steps:</p>
+            <ol style="text-align:left;">
+                <li>Open the Developer Tools in your browser (usually F12 or right-click and select "Inspect").</li>
+                <li>Navigate to the "Network" tab to view the HTTP requests made by the webpage.</li>
+                <li>Inspect different network requests to see their method (GET, POST, etc.) and other details.</li>
+                <li>Check the URL bar to see whether the website is using HTTP or HTTPS.</li>
+            </ol>
+        </div>
+
+        <div id="week9-topic1" class="content-section" style="display:none;">
+            <p class="date" style="text-align:left;"><i class="fas fa-calendar-alt"></i> 9th July 2024</p>
+            
+            <h1 style="text-align:center;">Week 9 - Topic 1</h1>
+            
+            <h2 style="text-align:center;">HTTP Status Code Overview</h2>
+            
+            <h3 style="text-align:center;">Response Codes</h3>
+            <p style="text-align:left;">HTTP status codes are issued by a server in response to a client's request made to the server. These codes represent the result of the server's attempt to process the request. Here’s a brief overview of the most common HTTP status codes:</p>
+            
+            <ul style="text-align:left;">
+                <li><strong>100-199 Informational</strong>: 
+                    <ul>
+                        <li>100 Continue</li>
+                        <li>101 Switching Protocols</li>
+                    </ul>
+                </li>
+                <li><strong>200-299 Success</strong>: 
+                    <ul>
+                        <li>200 OK</li>
+                        <li>201 Created</li>
+                        <li>202 Accepted</li>
+                        <li>204 No Content</li>
+                    </ul>
+                </li>
+                <li><strong>300-399 Redirection</strong>: 
+                    <ul>
+                        <li>301 Moved Permanently</li>
+                        <li>302 Found</li>
+                        <li>304 Not Modified</li>
+                    </ul>
+                </li>
+                <li><strong>400-499 Client Error</strong>: 
+                    <ul>
+                        <li>400 Bad Request</li>
+                        <li>401 Unauthorized</li>
+                        <li>403 Forbidden</li>
+                        <li>404 Not Found</li>
+                    </ul>
+                </li>
+                <li><strong>500-599 Server Error</strong>: 
+                    <ul>
+                        <li>500 Internal Server Error</li>
+                        <li>502 Bad Gateway</li>
+                        <li>503 Service Unavailable</li>
+                        <li>504 Gateway Timeout</li>
+                    </ul>
+                </li>
+            </ul>
+            
+            <h3 style="text-align:center;">Assignment</h3>
+            <p style="text-align:left;">Learn how to identify and understand HTTP status codes using browser developer tools. This involves:</p>
+            <ul style="text-align:left;">
+                <li>Opening Developer Tools in your browser (usually F12 or right-click and select "Inspect").</li>
+                <li>Navigating to the "Network" tab to view HTTP requests and their corresponding status codes.</li>
+                <li>Identifying different status codes and understanding what they signify about the server's response.</li>
+            </ul>
+        </div>
+        
+        <div id="week9-topic2" class="content-section" style="display:none;">
+            <p class="date" style="text-align:left;"><i class="fas fa-calendar-alt"></i> 11th July 2024</p>
+            
+            <h1 style="text-align:center;">Week 9 - Topic 2</h1>
+            
+            <h2 style="text-align:center;">Instructor Absence</h2>
+            <p style="text-align:left;">No activity was conducted as the instructor was absent. I headed straight back home.</p>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
